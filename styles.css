@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mukta:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  font-family: "Mukta", sans-serif;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+@media only screen and (max-width: 720px) {
+  [class*="container"] > [class*="row"] [class*="col-"] {
+    width: 100%;
+  }
+  .col-6,
+  h1,
+  p {
+    text-align: center;
+    list-style-position: inside;
+  }
+}
+
+#navbarTogglerDemo01 {
+  text-align: right;
+}
